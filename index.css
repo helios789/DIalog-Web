@@ -1,7 +1,26 @@
 * {
-    border :2px solid red;
+    /* border :2px solid red; */
 }
 
 .main {
-    height: 2000px;
+    height: 1200px;
+}
+
+.left-navbar {
+    background-color:  #373737;
+    width: 370px;
+}
+
+.left-navbar .nav {
+    margin-top: 30px;
+}
+
+.main {
+    background-color: #EBEBEB;
+    padding-top: 30px;
+}
+
+.password {
+    width : 400px;
+    margin-top: 130px;
 }

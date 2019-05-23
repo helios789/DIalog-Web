@@ -7,30 +7,41 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main-screen-setting.css"/>
+    <link rel="stylesheet" href="./app-background-setting.css"/>
+    <link rel="stylesheet" href="./text.css"/>
 
     <title>Hello, world!</title>
   </head>
   <body>
         <div class="container">
             <div class="row">
-                <div class="col col-md-4 col-lg-3">
-                    <ul class="nav flex-column sticky-top">
-                            <a class="btn btn-primary" href="./index.html" role="button">Logo</a>
-                            <h6>관리자 모드</h6>
+                    <div class="left-navbar col col-md-4 col-lg-3">
+                        <ul class="nav flex-column sticky-top tab">
+                            <a href="./index.html">
+                                <img src="images/web/did_logo.png"/>
+                            </a>
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.html">약관</a>
+                                <a class="nav-link" href="./index.html">
+                                    <img src="./images/web/icon_agreement.png"/>
+                                    &nbsp; 약관
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./guestbook.html">방명록</a>
+                                <a class="nav-link" href="./guestbook.html">
+                                    <img src="./images/web/icon_guestbook.png"/>
+                                    &nbsp; 방명록
+                                    <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
+                                </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="collapse" href="#NavCollapse" role="button" aria-expanded="false" aria-controls="NavCollapse">
-                                    설정 및 관리 >>
+                                    <img src="./images/web/icon_survey.png"/>
+                                    &nbsp; 설문조사
+                                    <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
                                 </a>
                                 <div class="collapse" id="NavCollapse">
                                     <div class="card card-body">
-                                        <ul class="nav flex-column sticky-top">
+                                        <ul class="nav flex-column sticky-top smalltab">
                                             <li class="nav-item">
                                                 <a class="nav-link" href="./main-screen-setting.html">메인화면 설정</a>
                                             </li>
@@ -45,12 +56,18 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">설문조사 통계</a>
+                                <a class="nav-link" href="#">
+                                    <img src="./images/web/icon_settings.png"/>
+                                    &nbsp;설정 및 관리
+                                    <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
+                                </a>
                             </li>
+    
+                            <h6 class="logout">로그아웃</h6>
                         </ul>
-                </div>
+                    </div>
 
-                <div class="col">
+                <div class="col main">
                     <div class="container">
                         <div class="text-center">
                             <h2>메인화면 설정</h2>

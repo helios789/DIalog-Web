@@ -8,55 +8,31 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css"/>
+    <link rel="stylesheet" href="./button.css"/>
+    <link rel="stylesheet" href="./text.css"/>
 
     <title>Hello, world!</title>
   </head>
   <body>
         <div class="container">
             <div class="row">
-                <div class="col col-md-4 col-lg-3">
+                <div class="left-navbar col col-md-4 col-lg-3">
                     <ul class="nav flex-column sticky-top">
-                        <a class="btn btn-primary" href="./index.html" role="button">Logo</a>
-                        <h6>관리자 모드</h6>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html">약관</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./guestbook.html">방명록</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="collapse" href="#NavCollapse" role="button" aria-expanded="false" aria-controls="NavCollapse">
-                                설정 및 관리 >>
-                            </a>
-                            <div class="collapse" id="NavCollapse">
-                                <div class="card card-body">
-                                    <ul class="nav flex-column sticky-top">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./main-screen-setting.html">메인화면 설정</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./term-setting.html">약관 관리</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./survey-setting.html">설문조사 관리</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">설문조사 통계</a>
-                        </li>
+                        <a href="./index.html">
+                            <img src="images/web/did_logo.png"/>
+                        </a>
                     </ul>
                 </div>
 
-                <div class="col main text-center">
+                <div class="main col">
                     <form>
-                        <div class="form-group">
-                            <label for="InputPassword">Password</label>
-                            <input type="password" class="form-control text-center" id="InputPassword" placeholder="Password">
+                        <h2 class="title">관리자 계정 로그인</h2>
+                        <h6 class="subtitle">어둠속의대화 방멱록 관리자 계정 비밀번호를 입력해 주세요</h6>
+                        <div class="form-group password">
+                            <label for="InputPassword">비밀번호</label>
+                            <input type="password" class="form-control" id="InputPassword" placeholder="Password">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="button-primary-1">로그인</button>
                     </form>
                 </div>
             </div>

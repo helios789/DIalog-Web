@@ -1,9 +1,9 @@
 * {
-    border :0px solid blue;
+    border :0px solid green;
 }
 
 .main {
-    height: 1200px;
+
 }
 
 .left-navbar {
@@ -48,40 +48,18 @@
     padding-top: 30px;
 }
 
-.main #agreementSelect {
-    border:    2px solid #121212;
-    background-color: #EBEBEB;
-    font-weight: bold;
+.main .select-file {
+    margin-top: 80px;
 }
 
-.main .calendar {
+.main .select-file .form-control-file {
     border:    2px solid #121212;
-    background-color: #EBEBEB;
-    font-weight: bold;
-}
-
-.main .term {
-    border-left: 5px solid black;
+    width: 400px;
     background-color: white;
-    padding: 15px;
-    margin-bottom: 15px;
+    padding: 5px;
 }
 
-.main .term button {
-    margin-top: -8px;
+.main .select-file .button-primary-1 {
+    margin-top: 20px;
 }
 
-.main .card-body {
-    height: 50px;
-    padding: 3px;
-    margin-top: -50px;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.main .card-body .icon-hide {
-    margin-right: 150px;
-}
-
-.modal img{
-    width:100%;
-}

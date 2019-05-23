@@ -1,0 +1,30 @@
+.title {
+    color: #121212;
+}
+
+.subtitle {
+    color: #12121280;
+}
+
+.tab .nav-link {
+    color: #ffffff90;
+}
+
+.tab .nav-link:hover{
+    color: white;
+    border-left: 4px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.smalltab .nav-link {
+    color: #ffffff90;
+    font-size: 13px;
+}
+
+.smalltab .nav-link:hover{
+    color: white;
+    border: 0px;
+}
