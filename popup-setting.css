@@ -2,8 +2,12 @@
     border :0px solid green;
 }
 
-.main {
+body > .container {
+    min-width: 1200px;
+}
 
+.main {
+    height: 1800px;
 }
 
 .left-navbar {

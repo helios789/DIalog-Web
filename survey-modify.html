@@ -16,156 +16,189 @@
   <body>
         <div class="container">
             <div class="row">
-                    <div class="left-navbar col col-md-4 col-lg-3">
-                        <ul class="nav flex-column sticky-top tab">
-                            <a href="./index.html">
-                                <img src="images/web/did_logo.png"/>
+                <div class="left-navbar col-3">
+                    <ul class="nav flex-column sticky-top tab">
+                        <a href="./index.html">
+                            <img src="images/web/did_logo.png"/>
+                        </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./term.html">
+                                <img src="./images/web/icon_agreement.png"/>
+                                &nbsp; 약관
                             </a>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html">
-                                    <img src="./images/web/icon_agreement.png"/>
-                                    &nbsp; 약관
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./guestbook.html">
-                                    <img src="./images/web/icon_guestbook.png"/>
-                                    &nbsp; 방명록
-                                    <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="collapse" href="#NavCollapse" role="button" aria-expanded="false" aria-controls="NavCollapse">
-                                    <img src="./images/web/icon_survey.png"/>
-                                    &nbsp; 설문조사
-                                    <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
-                                </a>
-                                <div class="collapse" id="NavCollapse">
-                                    <div class="card card-body">
-                                        <ul class="nav flex-column sticky-top smalltab">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="./main-screen-setting.html">메인화면 설정</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="./term-setting.html">약관 관리</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="./survey-setting.html">설문조사 관리</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#NavCollapseGuestBook" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="NavCollapseGuestBook">
+                                <img src="./images/web/icon_guestbook.png"/>
+                                &nbsp; 방명록
+                                <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
+                            </a>
+                            <div class="collapse" id="NavCollapseGuestBook">
+                                <div class="card card-body">
+                                    <ul class="nav flex-column sticky-top smalltab">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./guestbook.html">전체 방명록</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./guestbook-hide.html">숨긴 방명록</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <img src="./images/web/icon_settings.png"/>
-                                    &nbsp;설정 및 관리
-                                    <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
-                                </a>
-                            </li>
-    
-                            <h6 class="logout">로그아웃</h6>
-                        </ul>
-                    </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#NavCollapseSurvey" role="button" aria-expanded="false" aria-controls="NavCollapseSurvey">
+                                <img src="./images/web/icon_survey.png"/>
+                                &nbsp; 설문조사
+                                <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
+                            </a>
+                            <div class="collapse" id="NavCollapseSurvey">
+                                <div class="card card-body">
+                                    <ul class="nav flex-column sticky-top smalltab">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./survey-modify.html">질문 수정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./survey-statistics.html">질문 통계</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#NavCollapseSetting" role="button" aria-expanded="false" aria-controls="NavCollapseSetting">
+                                <img src="./images/web/icon_settings.png"/>
+                                &nbsp; 설정 및 관리
+                                <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
+                            </a>
+                            <div class="collapse" id="NavCollapseSetting">
+                                <div class="card card-body">
+                                    <ul class="nav flex-column sticky-top smalltab">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./app-background-setting.html">앱 배경화면 설정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./popup-setting.html">이벤트 팝업 설정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./employee-setting.html">직원 설정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./term-setting.html">약관 설정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./password-setting.html">비밀번호 설정</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <h6 class="logout">로그아웃</h6>
+                    </ul>
+                </div>
 
                 <div class="col main">
-                    <div class="container">
-                        <div>
-                            <h2 class="title">질문 수정</h2>
-                            <h6 class="subtitle">설문조사 질문을 수정하고 관리할 수 있습니다.</h6>
-                        </div>
+  
+                    <div>
+                        <h2 class="title">질문 수정</h2>
+                        <h6 class="subtitle">설문조사 질문을 수정하고 관리할 수 있습니다.</h6>
+                    </div>
 
-                        <div class="survey">
-                            <h2>질문 1</h2>
-                            <div class="row">
-                                <div class="col-9">
-                                    <div class="form-group row">
-                                        <label class="col-2 col-form-label">한국어</label>
-                                        <div class="col-9">
-                                            <input type="text" class="form-control" placeholder="입장 시간(회차)을 선택해 주세요.">
-                                        </div>
-
-                                        <label class="col-2 col-form-label">영어</label>
-                                        <div class="col-9">
-                                            <input type="text" class="form-control"placeholder="Select your time slot.">
-                                        </div>
+                    <div class="survey">
+                        <h2>질문 1</h2>
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="form-group row">
+                                    <label class="col-2 col-form-label">한국어</label>
+                                    <div class="col-9">
+                                        <input type="text" class="form-control" placeholder="입장 시간(회차)을 선택해 주세요.">
                                     </div>
-                                </div>
 
-                                <div class="col-3">
-                                    <div class="form-group">
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>시간</option>
-                                            <option>만족도</option>
-                                            <option>안내 운영스텝 만족도</option>
-                                            <option>로드마스터 만족도</option>
-                                        </select>
+                                    <label class="col-2 col-form-label">영어</label>
+                                    <div class="col-9">
+                                        <input type="text" class="form-control"placeholder="Select your time slot.">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        
 
-                        <div class="survey">
-                            <h2>질문 1</h2>
-                            <div class="row">
-                                <div class="col-9">
-                                    <div class="form-group row">
-                                        <label class="col-2 col-form-label">한국어</label>
-                                        <div class="col-9">
-                                            <input type="text" class="form-control" placeholder="입장 시간(회차)을 선택해 주세요.">
-                                        </div>
-
-                                        <label class="col-2 col-form-label">영어</label>
-                                        <div class="col-9">
-                                            <input type="text" class="form-control"placeholder="Select your time slot.">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-3">
-                                    <div class="form-group">
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>시간</option>
-                                            <option>만족도</option>
-                                            <option>안내 운영스텝 만족도</option>
-                                            <option>로드마스터 만족도</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="survey">
-                            <h2>질문 1</h2>
-                            <div class="row">
-                                <div class="col-9">
-                                    <div class="form-group row">
-                                        <label class="col-2 col-form-label">한국어</label>
-                                        <div class="col-9">
-                                            <input type="text" class="form-control" placeholder="입장 시간(회차)을 선택해 주세요.">
-                                        </div>
-
-                                        <label class="col-2 col-form-label">영어</label>
-                                        <div class="col-9">
-                                            <input type="text" class="form-control"placeholder="Select your time slot.">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-3">
-                                    <div class="form-group">
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option>시간</option>
-                                            <option>만족도</option>
-                                            <option>안내 운영스텝 만족도</option>
-                                            <option>로드마스터 만족도</option>
-                                        </select>
-                                    </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>시간</option>
+                                        <option>만족도</option>
+                                        <option>안내 운영스텝 만족도</option>
+                                        <option>로드마스터 만족도</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
                     </div>
+                        
+
+                    <div class="survey">
+                        <h2>질문 1</h2>
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="form-group row">
+                                    <label class="col-2 col-form-label">한국어</label>
+                                    <div class="col-9">
+                                        <input type="text" class="form-control" placeholder="입장 시간(회차)을 선택해 주세요.">
+                                    </div>
+
+                                    <label class="col-2 col-form-label">영어</label>
+                                    <div class="col-9">
+                                        <input type="text" class="form-control"placeholder="Select your time slot.">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>시간</option>
+                                        <option>만족도</option>
+                                        <option>안내 운영스텝 만족도</option>
+                                        <option>로드마스터 만족도</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="survey">
+                        <h2>질문 1</h2>
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="form-group row">
+                                    <label class="col-2 col-form-label">한국어</label>
+                                    <div class="col-9">
+                                        <input type="text" class="form-control" placeholder="입장 시간(회차)을 선택해 주세요.">
+                                    </div>
+
+                                    <label class="col-2 col-form-label">영어</label>
+                                    <div class="col-9">
+                                        <input type="text" class="form-control"placeholder="Select your time slot.">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>시간</option>
+                                        <option>만족도</option>
+                                        <option>안내 운영스텝 만족도</option>
+                                        <option>로드마스터 만족도</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="button-primary-2 text-center add">
                         <img src="./images/web/add.png">
                     </div>

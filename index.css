@@ -2,6 +2,10 @@
     /* border :2px solid red; */
 }
 
+body > .container {
+    min-width: 1200px;
+}
+
 .main {
     height: 1200px;
 }

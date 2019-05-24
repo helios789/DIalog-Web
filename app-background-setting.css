@@ -2,6 +2,10 @@
     border :0px solid green;
 }
 
+body > .container {
+    min-width: 1200px;
+}
+
 .main {
 
 }

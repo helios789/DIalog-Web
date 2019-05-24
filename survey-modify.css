@@ -1,6 +1,11 @@
 * {
     border: 0px solid darkcyan;
 }
+
+body > .container {
+    min-width: 1200px;
+}
+
 .main {
     height: 1200px;
 }

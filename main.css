@@ -3,6 +3,10 @@
     height: 1200px;
 }
 
+body > .container {
+    min-width: 1200px;
+}
+
 .left-navbar {
     background-color:  #373737;
     width: 370px;

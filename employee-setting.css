@@ -2,8 +2,12 @@
     border :0px solid green;
 }
 
+body > .container {
+    min-width: 1200px;
+}
+
 .main {
-    
+    height: 1800px;
 }
 
 .left-navbar {
@@ -46,4 +50,30 @@
 .main {
     background-color: #EBEBEB;
     padding-top: 30px;
+}
+
+.main .employee-setting .employee{
+    background-color: white;
+    padding: 10px;
+}
+
+.main .employee-setting .employee .employee-name {
+    background-color: #EBEBEB;
+}
+
+.main .roadmaster-setting .roadmaster{
+    background-color: white;
+    padding: 10px;
+}
+
+.main .roadmaster-setting .roadmaster .roadmaster-name {
+    background-color: #EBEBEB;
+}
+
+.main .add {
+    margin: auto;
+}
+
+.main .close {
+    padding: 0px;
 }

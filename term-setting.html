@@ -8,116 +8,181 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./term-setting.css"/>
+    <link rel="stylesheet" href="./text.css"/>
+    <link rel="stylesheet" href="./button.css"/>
 
     <title>Hello, world!</title>
   </head>
   <body>
         <div class="container">
             <div class="row">
-                <div class="col col-md-4 col-lg-3">
-                    <ul class="nav flex-column sticky-top">
-                            <a class="btn btn-primary" href="./index.html" role="button">Logo</a>
-                            <h6>관리자 모드</h6>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html">약관</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./guestbook.html">방명록</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="collapse" href="#NavCollapse" role="button" aria-expanded="false" aria-controls="NavCollapse">
-                                    설정 및 관리 >>
-                                </a>
-                                <div class="collapse" id="NavCollapse">
-                                    <div class="card card-body">
-                                        <ul class="nav flex-column sticky-top">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="./main-screen-setting.html">메인화면 설정</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="./term-setting.html">약관 관리</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="./survey-setting.html">설문조사 관리</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                <div class="left-navbar col-3">
+                    <ul class="nav flex-column sticky-top tab">
+                        <a href="./index.html">
+                            <img src="images/web/did_logo.png"/>
+                        </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./term.html">
+                                <img src="./images/web/icon_agreement.png"/>
+                                &nbsp; 약관
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#NavCollapseGuestBook" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="NavCollapseGuestBook">
+                                <img src="./images/web/icon_guestbook.png"/>
+                                &nbsp; 방명록
+                                <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
+                            </a>
+                            <div class="collapse" id="NavCollapseGuestBook">
+                                <div class="card card-body">
+                                    <ul class="nav flex-column sticky-top smalltab">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./guestbook.html">전체 방명록</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./guestbook-hide.html">숨긴 방명록</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">설문조사 통계</a>
-                            </li>
-                        </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#NavCollapseSurvey" role="button" aria-expanded="false" aria-controls="NavCollapseSurvey">
+                                <img src="./images/web/icon_survey.png"/>
+                                &nbsp; 설문조사
+                                <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
+                            </a>
+                            <div class="collapse" id="NavCollapseSurvey">
+                                <div class="card card-body">
+                                    <ul class="nav flex-column sticky-top smalltab">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./survey-modify.html">질문 수정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./survey-statistics.html">질문 통계</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#NavCollapseSetting" role="button" aria-expanded="false" aria-controls="NavCollapseSetting">
+                                <img src="./images/web/icon_settings.png"/>
+                                &nbsp; 설정 및 관리
+                                <img class="drondown" align="right" src="./images/web/dropdown_white_down.png"/>
+                            </a>
+                            <div class="collapse" id="NavCollapseSetting">
+                                <div class="card card-body">
+                                    <ul class="nav flex-column sticky-top smalltab">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./app-background-setting.html">앱 배경화면 설정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./popup-setting.html">이벤트 팝업 설정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./employee-setting.html">직원 설정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./term-setting.html">약관 설정</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./password-setting.html">비밀번호 설정</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <h6 class="logout">로그아웃</h6>
+                    </ul>
                 </div>
 
-                <div class="col">
-                    <div class="container">
-                        <div class="text-center">
-                            <h2>약관 관리</h2>
-                            <div class="text-right">
-                                    <button type="button" class="btn btn-primary">Primary</button>
-                            </div>
+                <div class="col-9 main">
+
+                    <h2 class="title">약관 설정</h2>
+                    <h6 class="subtitle">어둠속의대화 관람 약관 설정을 변경하고 관리할 수 있습니다.</h6>
+
+                    
+                    <div class="row term-setting">
+                        <div class="col-2">
+                            <h6>약관 분류</h6>
                         </div>
-                        <div class="row">
-                            <div class="col col-lg-6">
-                                <h6>개인정보 처리 방침</h6>
+
+                        <div class="col-10">
+                    
+                            <div class="row">
+                                <div class="col">
+                                    <div class="term row">
+                                        <h6 class="term-content">어둠속의 대화 관람 규정 동의 (14세 이상)</h6>
+                                        <img class="close" src="images/web/close.png"/>
+                                    </div>
+
+                                    <div class="term row">
+                                        <h6 class="term-content">어둠속의 대화 관람 규정 동의 (14세 미만)</h6>
+                                        <img class="close" src="images/web/close.png"/>
+                                    </div>
+                                    
+                                    <div class="button-primary-2 add text-center">
+                                        <img src="./images/web/add.png">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col col-lg-6">
+                        
+                        </div>
+                    </div>
+
+                    <div class="row term-setting">
+                        <div class="form-group">
+                            <select class="form-control" id="agreementSelect" placeholder="hi">
+                                <option>어둠속의 대화 관람 규정 동의 (14세 이상)</option>
+                                <option>어둠속의 대화 관람 규정 동의 (14세 이상)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row term-setting">
+                        <div class="col-2">
+                            <h6>약관 작성란</h6>
+                        </div>
+
+                        <div class="col-10">
+                
+                            <div class="row">
                                 <form>
                                     <div class="form-group">
                                         <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                     </div>
                                 </form>
                             </div>
+                    
                         </div>
-                        <div class="row">
-                            <div class="col col-lg-6">
-                                <h6>만 14세 미만 개인정보 처리 방침 법정대리인 동의서</h6>
-                            </div>
-                            <div class="col col-lg-6">
+                    </div>
+
+                    <div class="row term-setting">
+                        <div class="col-2">
+                            <h6>약관 문서</h6>
+                        </div>
+
+                        <div class="col-10">
+                        
+                            <div class="row">
                                 <form>
                                     <div class="form-group">
                                         <input type="file" class="form-control-file" id="exampleFormControlFile1">
+
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile2">
                                     </div>
                                 </form>
+
+                                <button type="submit" class="button-primary-1">적용</button>
                             </div>
+                            
                         </div>
-                        <div class="row">
-                            <div class="col col-lg-6">
-                                <h6>만 14세 미만 현장 인솔책임자 동의서</h6>
-                            </div>
-                            <div class="col col-lg-6">
-                                <form>
-                                    <div class="form-group">
-                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-lg-6">
-                                <h6>만 14세 미만 현장 티켓 동의서</h6>
-                            </div>
-                            <div class="col col-lg-6">
-                                <form>
-                                    <div class="form-group">
-                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-lg-6">
-                                <h6>유실물 반환 요청서</h6>
-                            </div>
-                            <div class="col col-lg-6">
-                                <form>
-                                    <div class="form-group">
-                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                
                     </div>
                 </div>
             </div>
