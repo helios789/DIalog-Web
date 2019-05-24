@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./term-setting.css"/>
     <link rel="stylesheet" href="./text.css"/>
     <link rel="stylesheet" href="./button.css"/>
+    <link rel="stylesheet" href="./common.css"/>
+    <link rel="stylesheet" href="./nav.css"/>
 
     <title>Hello, world!</title>
   </head>
@@ -61,7 +63,7 @@
                                             <a class="nav-link" href="./survey-modify.html">질문 수정</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="./survey-statistics.html">질문 통계</a>
+                                            <a class="nav-link" href="./survey-statistics.html">설문 통계</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -97,7 +99,7 @@
                             </div>
                         </li>
 
-                        <h6 class="logout">로그아웃</h6>
+                        <a class="logout" href="./index.html">로그아웃</a>
                     </ul>
                 </div>
 
@@ -106,6 +108,7 @@
                     <h2 class="title">약관 설정</h2>
                     <h6 class="subtitle">어둠속의대화 관람 약관 설정을 변경하고 관리할 수 있습니다.</h6>
 
+                    <hr>
                     
                     <div class="row term-setting">
                         <div class="col-2">
@@ -113,28 +116,23 @@
                         </div>
 
                         <div class="col-10">
-                    
-                            <div class="row">
-                                <div class="col">
-                                    <div class="term row">
-                                        <h6 class="term-content">어둠속의 대화 관람 규정 동의 (14세 이상)</h6>
-                                        <img class="close" src="images/web/close.png"/>
-                                    </div>
-
-                                    <div class="term row">
-                                        <h6 class="term-content">어둠속의 대화 관람 규정 동의 (14세 미만)</h6>
-                                        <img class="close" src="images/web/close.png"/>
-                                    </div>
-                                    
-                                    <div class="button-primary-2 add text-center">
-                                        <img src="./images/web/add.png">
-                                    </div>
-                                </div>
+                            <div class="term row">
+                                <h6 class="term-content">어둠속의 대화 관람 규정 동의 (14세 이상)</h6>
+                                <img class="close" src="images/web/close.png"/>
                             </div>
-                        
+
+                            <div class="term row">
+                                <h6 class="term-content">어둠속의 대화 관람 규정 동의 (14세 미만)</h6>
+                                <img class="close" src="images/web/close.png"/>
+                            </div>
+                            
+                            <div class="button-primary-2 add text-center">
+                                <img src="./images/web/add.png">
+                            </div>
                         </div>
                     </div>
 
+                    <hr>
                     <div class="row term-setting">
                         <div class="form-group">
                             <select class="form-control" id="agreementSelect" placeholder="hi">
@@ -143,6 +141,7 @@
                             </select>
                         </div>
                     </div>
+                    <hr>
 
                     <div class="row term-setting">
                         <div class="col-2">

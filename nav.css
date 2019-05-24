@@ -1,0 +1,36 @@
+.left-navbar {
+    background-color:  #373737;
+}
+
+.left-navbar .nav {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.left-navbar .nav > a {
+    margin-bottom: 70px;
+}
+
+.left-navbar .nav li {
+    margin-bottom: 10px;
+}
+
+.left-navbar .card {
+    background-color: #373737;
+    padding: 0px;
+}
+
+.left-navbar .card .nav{
+    margin: 0px;
+    padding-left: 55px;
+    padding-top: 10px;
+}
+
+.left-navbar .card .nav-link{
+    padding: 5px;
+}
+
+.left-navbar .logout{
+    color: white;
+    margin-top: 180%;
+}

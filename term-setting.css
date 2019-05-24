@@ -1,94 +1,49 @@
-* {
-    border :0px solid green;
-}
-
-body > .container {
-    min-width: 1200px;
-}
-
-.main {
-    height: 1800px;
-}
-
-.left-navbar {
-    background-color:  #373737;
-    width: 370px;
-}
-
-.left-navbar .nav {
-    margin-top: 30px;
-}
-
-.left-navbar .nav > a {
-    margin-bottom: 70px;
-}
-
-.left-navbar .nav li {
-    margin-bottom: 10px;
-}
-
-.left-navbar .card {
-    background-color: #373737;
-    padding: 0px;
-}
-
-.left-navbar .card .nav{
-    margin: 0px;
-    padding-left: 55px;
-    padding-top: 10px;
-}
-
-.left-navbar .card .nav-link{
-    padding: 5px;
-}
-
-.left-navbar .logout{
-    color: white;
-    margin-top: 180%;
-}
-
-.main {
-    background-color: #EBEBEB;
-    padding-top: 30px;
-}
-
 .main .term-setting {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .main .term{
     background-color: white;
     padding: 10px;
-    width: 500px
+    width: 500px;
+    margin-bottom: 15px;
 }
 
 .main .term-content {
     background-color: #EBEBEB;
     width: 430px;
     margin: 0px;
-    padding-top: 15px;
+    padding: 10px;
 }
 .main .form-control-file {
     border:    2px solid #121212;
     width: 500px;
-    background-color: white;
+    background-color: #ebebeb;
     padding: 5px;
+    margin-bottom: 15px;
 }
 
 .main #agreementSelect {
     border:    2px solid #121212;
     background-color: #EBEBEB;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .main .add {
-    margin-left: 180px;;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .main .close {
     padding: 0px;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
 }
 
 .main .button-primary-1 {
+    margin-top: 30px;
     width: 500px;
 }

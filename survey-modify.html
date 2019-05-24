@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./survey-modify.css"/>
     <link rel="stylesheet" href="./text.css"/>
     <link rel="stylesheet" href="./button.css"/>
+    <link rel="stylesheet" href="./common.css"/>
+    <link rel="stylesheet" href="./nav.css"/>
 
     <title>Hello, world!</title>
   </head>
@@ -61,7 +63,7 @@
                                             <a class="nav-link" href="./survey-modify.html">질문 수정</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="./survey-statistics.html">질문 통계</a>
+                                            <a class="nav-link" href="./survey-statistics.html">설문 통계</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -97,31 +99,41 @@
                             </div>
                         </li>
 
-                        <h6 class="logout">로그아웃</h6>
+                        <a class="logout" href="./index.html">로그아웃</a>
                     </ul>
                 </div>
 
                 <div class="col main">
   
-                    <div>
-                        <h2 class="title">질문 수정</h2>
-                        <h6 class="subtitle">설문조사 질문을 수정하고 관리할 수 있습니다.</h6>
-                    </div>
+
+                    <h2 class="title">질문 수정</h2>
+                    <h6 class="subtitle">설문조사 질문을 수정하고 관리할 수 있습니다.</h6>
+    
+                    <hr>
 
                     <div class="survey">
-                        <h2>질문 1</h2>
+                        <div class="row">
+                            <div class="col">
+                                <h4>질문 1</h4>
+                                
+                            </div>
+                            <img class="close" src="images/web/close.png"/>
+                        </div>
+
                         <div class="row">
                             <div class="col-9">
                                 <div class="form-group row">
                                     <label class="col-2 col-form-label">한국어</label>
                                     <div class="col-9">
-                                        <input type="text" class="form-control" placeholder="입장 시간(회차)을 선택해 주세요.">
-                                    </div>
-
+                                        <input type="text" class="form-control survey-content" placeholder="입장 시간(회차)을 선택해 주세요.">
+                                    </div> 
+                                </div>
+                
+                                <div class="form-group row">
                                     <label class="col-2 col-form-label">영어</label>
                                     <div class="col-9">
-                                        <input type="text" class="form-control"placeholder="Select your time slot.">
-                                    </div>
+                                        <input type="text" class="form-control survey-content" placeholder="입장 시간(회차)을 선택해 주세요.">
+                                    </div> 
                                 </div>
                             </div>
 
@@ -140,19 +152,28 @@
                         
 
                     <div class="survey">
-                        <h2>질문 1</h2>
+                        <div class="row">
+                            <div class="col">
+                                <h4>질문 1</h4>
+                                
+                            </div>
+                            <img class="close" src="images/web/close.png"/>
+                        </div>
+
                         <div class="row">
                             <div class="col-9">
                                 <div class="form-group row">
                                     <label class="col-2 col-form-label">한국어</label>
                                     <div class="col-9">
-                                        <input type="text" class="form-control" placeholder="입장 시간(회차)을 선택해 주세요.">
-                                    </div>
-
+                                        <input type="text" class="form-control survey-content" placeholder="입장 시간(회차)을 선택해 주세요.">
+                                    </div> 
+                                </div>
+                
+                                <div class="form-group row">
                                     <label class="col-2 col-form-label">영어</label>
                                     <div class="col-9">
-                                        <input type="text" class="form-control"placeholder="Select your time slot.">
-                                    </div>
+                                        <input type="text" class="form-control survey-content" placeholder="입장 시간(회차)을 선택해 주세요.">
+                                    </div> 
                                 </div>
                             </div>
 
@@ -170,19 +191,28 @@
                     </div>
 
                     <div class="survey">
-                        <h2>질문 1</h2>
+                        <div class="row">
+                            <div class="col">
+                                <h4>질문 1</h4>
+                                
+                            </div>
+                            <img class="close" src="images/web/close.png"/>
+                        </div>
+
                         <div class="row">
                             <div class="col-9">
                                 <div class="form-group row">
                                     <label class="col-2 col-form-label">한국어</label>
                                     <div class="col-9">
-                                        <input type="text" class="form-control" placeholder="입장 시간(회차)을 선택해 주세요.">
-                                    </div>
-
+                                        <input type="text" class="form-control survey-content" placeholder="입장 시간(회차)을 선택해 주세요.">
+                                    </div> 
+                                </div>
+                
+                                <div class="form-group row">
                                     <label class="col-2 col-form-label">영어</label>
                                     <div class="col-9">
-                                        <input type="text" class="form-control"placeholder="Select your time slot.">
-                                    </div>
+                                        <input type="text" class="form-control survey-content" placeholder="입장 시간(회차)을 선택해 주세요.">
+                                    </div> 
                                 </div>
                             </div>
 
@@ -203,7 +233,9 @@
                         <img src="./images/web/add.png">
                     </div>
 
-                    <button type="submit" class="button-primary-1 submit">적용</button>
+                    <div class="text-center">
+                        <button type="submit" class="button-primary-1 submit">적용</button>
+                    </div>
                 </div>
             </div>
         </div>

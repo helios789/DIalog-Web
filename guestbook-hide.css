@@ -1,88 +1,54 @@
-* {
-    border :0px solid blue;
+.main .search-option {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
-body > .container {
-    min-width: 1200px;
-}
-
-.main {
-    height: 1200px;
-}
-
-.left-navbar {
-    background-color:  #373737;
-    width: 370px;
-}
-
-.left-navbar .nav {
-    margin-top: 30px;
-}
-
-.left-navbar .nav > a {
-    margin-bottom: 70px;
-}
-
-.left-navbar .nav li {
-    margin-bottom: 10px;
-}
-
-.left-navbar .card {
-    background-color: #373737;
-    padding: 0px;
-}
-
-.left-navbar .card .nav{
-    margin: 0px;
-    padding-left: 55px;
-    padding-top: 10px;
-}
-
-.left-navbar .card .nav-link{
-    padding: 5px;
-}
-
-.left-navbar .logout{
-    color: white;
-    margin-top: 180%;
-}
-
-.main {
-    background-color: #EBEBEB;
-    padding-top: 30px;
-}
-
-.main #agreementSelect {
+.main #roadmasterSelect {
     border:    2px solid #121212;
     background-color: #EBEBEB;
     font-weight: bold;
+    width: 150px;
+}
+
+.main .roasmaster-option {
+    margin-right: 180px;
+}
+
+.main .search-option .calendar-option {
+    margin-left: 40px;
+    margin-right: 10px;
 }
 
 .main .calendar {
     border:    2px solid #121212;
     background-color: #EBEBEB;
     font-weight: bold;
+    width: 170px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
-.main .term {
-    border-left: 5px solid black;
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 15px;
+.main .guestbook {
+    padding: 20px;
 }
 
-.main .term button {
-    margin-top: -8px;
+.main .guestbook .img-thumbnail {
+    padding: 2px;
 }
 
-.main .card-body {
+.main .guestbook .card {
+    margin-bottom: 20px;
+}
+
+.main .guestbook .card-body {
     height: 50px;
     padding: 3px;
     margin-top: -50px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.main .card-body .icon-hide {
+.main .guestbook .card-body .icon-hide {
     margin-right: 150px;
 }
 

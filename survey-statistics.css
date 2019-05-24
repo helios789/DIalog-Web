@@ -1,67 +1,19 @@
-* {
-   border: 0px solid cadetblue;
-}
-
-body > .container {
-    min-width: 1200px;
-}
-
-.main {
-    height: 1200px;
-}
-
-.left-navbar {
-    background-color:  #373737;
-    width: 370px;
-}
-
-.left-navbar .nav {
+.main .search-option {
     margin-top: 30px;
 }
 
-.left-navbar .nav > a {
-    margin-bottom: 70px;
-}
-
-.left-navbar .nav li {
-    margin-bottom: 10px;
-}
-
-.left-navbar .card {
-    background-color: #373737;
-    padding: 0px;
-}
-
-.left-navbar .card .nav{
-    margin: 0px;
-    padding-left: 55px;
-    padding-top: 10px;
-}
-
-.left-navbar .card .nav-link{
-    padding: 5px;
-}
-
-.left-navbar .logout{
-    color: white;
-    margin-top: 180%;
-}
-
-.main {
-    background-color: #EBEBEB;
-    padding-top: 30px;
-}
-
-.main #agreementSelect {
-    border:    2px solid #121212;
-    background-color: #EBEBEB;
-    font-weight: bold;
+.main .search-option .calendar-option {
+    margin-left: 398px;
+    margin-right: 10px;
 }
 
 .main .calendar {
     border:    2px solid #121212;
     background-color: #EBEBEB;
     font-weight: bold;
+    width: 170px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .main .statistics {
@@ -69,4 +21,13 @@ body > .container {
     background-color: white;
     padding: 15px;
     margin-bottom: 15px;
+}
+
+.main .statistics {
+    margin-bottom: 15px;
+}
+
+.main .statistics .statistics-filename {
+    margin-bottom: 0px;
+    padding-top: 5px;
 }

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./guestbook.css"/>
     <link rel="stylesheet" href="./text.css"/>
     <link rel="stylesheet" href="./button.css"/>
+    <link rel="stylesheet" href="./common.css"/>
+    <link rel="stylesheet" href="./nav.css"/>
 
     <title>Hello, world!</title>
   </head>
@@ -61,7 +63,7 @@
                                             <a class="nav-link" href="./survey-modify.html">질문 수정</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="./survey-statistics.html">질문 통계</a>
+                                            <a class="nav-link" href="./survey-statistics.html">설문 통계</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -97,7 +99,7 @@
                             </div>
                         </li>
 
-                        <h6 class="logout">로그아웃</h6>
+                        <a class="logout" href="./index.html">로그아웃</a>
                     </ul>
                 </div>
 
@@ -105,10 +107,9 @@
                     <h2 class="title">전체 방명록</h2>
                     <h6 class="subtitle">관람객들이 작성한 방명록들을 확인할 수 있습니다</h6>
 
-                    <div class="row">
-
-                        <div class="form-group">
-                            <select class="form-control" id="agreementSelect" placeholder="hi">
+                    <div class="row search-option">
+                        <div class="form-group roasmaster-option">
+                            <select class="form-control" id="roadmasterSelect" placeholder="hi">
                                 <option>노정빈</option>
                                 <option>노정빈</option>
                                 <option>노정빈</option>
@@ -118,122 +119,127 @@
                                 <option>노정빈</option>
                             </select>
                         </div>
+    
 
-
-                        <div class="form-group">
+                        <div class="form-group row calendar-option">
                             <input type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control calendar">
-                        </div>
-                        <div class="form-group">
+                            <h6>~</h6>
                             <input type="date" name="bday" min="1000-01-01" max="3000-12-31" class="form-control calendar">
                         </div>
                         
-                        <button type="submit" class="button-search" >검색</button>
+                        <button type="submit" class="button-search">검색</button>
+                    </div>
 
+                    <hr>
+                    
+                    <div class="guestbook">
+                        <h2>20190514</h2>
+                        <div class="row justify-content-between">
+                            <div class="card"">
+                                <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
+                                <div class="card-body">
+                                    <a href="#" class="icon-hide">
+                                        <img src="images/web/hide.png">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/web/listen.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card"">
+                                <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
+                                <div class="card-body">
+                                    <a href="#" class="icon-hide">
+                                        <img src="images/web/hide.png">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/web/listen.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card"">
+                                <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
+                                <div class="card-body">
+                                    <a href="#" class="icon-hide">
+                                        <img src="images/web/hide.png">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/web/listen.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
-                    <h2>YY-MM-DD</h2>
-                    <div class="row">
-                        <div class="card"">
-                            <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
-                            <div class="card-body">
-                                <a href="#" class="icon-hide">
-                                    <img src="images/web/hide.png">
-                                </a>
-                                <a href="#">
-                                    <img src="images/web/listen.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card"">
-                            <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
-                            <div class="card-body">
-                                <a href="#" class="icon-hide">
-                                    <img src="images/web/hide.png">
-                                </a>
-                                <a href="#">
-                                    <img src="images/web/listen.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card"">
-                            <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
-                            <div class="card-body">
-                                <a href="#" class="icon-hide">
-                                    <img src="images/web/hide.png">
-                                </a>
-                                <a href="#">
-                                    <img src="images/web/listen.png">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <h2>YY-MM-DD</h2>
-                    <div class="row">
-                        <div class="card"">
-                            <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
-                            <div class="card-body">
-                                <a href="#" class="icon-hide">
-                                    <img src="images/web/hide.png">
-                                </a>
-                                <a href="#">
-                                    <img src="images/web/listen.png">
-                                </a>
+                    <div class="guestbook">
+                        <h2>20190514</h2>
+                        <div class="row justify-content-between">
+                            <div class="card"">
+                                <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
+                                <div class="card-body">
+                                    <a href="#" class="icon-hide">
+                                        <img src="images/web/hide.png">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/web/listen.png">
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card"">
-                            <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
-                            <div class="card-body">
-                                <a href="#" class="icon-hide">
-                                    <img src="images/web/hide.png">
-                                </a>
-                                <a href="#">
-                                    <img src="images/web/listen.png">
-                                </a>
+                            <div class="card"">
+                                <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
+                                <div class="card-body">
+                                    <a href="#" class="icon-hide">
+                                        <img src="images/web/hide.png">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/web/listen.png">
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card"">
-                            <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
-                            <div class="card-body">
-                                <a href="#" class="icon-hide">
-                                    <img src="images/web/hide.png">
-                                </a>
-                                <a href="#">
-                                    <img src="images/web/listen.png">
-                                </a>
+                            <div class="card"">
+                                <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
+                                <div class="card-body">
+                                    <a href="#" class="icon-hide">
+                                        <img src="images/web/hide.png">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/web/listen.png">
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card"">
-                            <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
-                            <div class="card-body">
-                                <a href="#" class="icon-hide">
-                                    <img src="images/web/hide.png">
-                                </a>
-                                <a href="#">
-                                    <img src="images/web/listen.png">
-                                </a>
+                            <div class="card"">
+                                <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
+                                <div class="card-body">
+                                    <a href="#" class="icon-hide">
+                                        <img src="images/web/hide.png">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/web/listen.png">
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card"">
-                            <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
-                            <div class="card-body">
-                                <a href="#" class="icon-hide">
-                                    <img src="images/web/hide.png">
-                                </a>
-                                <a href="#">
-                                    <img src="images/web/listen.png">
-                                </a>
+                            <div class="card"">
+                                <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
+                                <div class="card-body">
+                                    <a href="#" class="icon-hide">
+                                        <img src="images/web/hide.png">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/web/listen.png">
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card"">
-                            <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
-                            <div class="card-body">
-                                <a href="#" class="icon-hide">
-                                    <img src="images/web/hide.png">
-                                </a>
-                                <a href="#">
-                                    <img src="images/web/listen.png">
-                                </a>
+                            <div class="card"">
+                                <img src="http://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png" alt="..." class="img-thumbnail rounded"  data-toggle="modal" data-target=".bd-example-modal-lg">
+                                <div class="card-body">
+                                    <a href="#" class="icon-hide">
+                                        <img src="images/web/hide.png">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/web/listen.png">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

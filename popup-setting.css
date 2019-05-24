@@ -1,57 +1,3 @@
-* {
-    border :0px solid green;
-}
-
-body > .container {
-    min-width: 1200px;
-}
-
-.main {
-    height: 1800px;
-}
-
-.left-navbar {
-    background-color:  #373737;
-    width: 370px;
-}
-
-.left-navbar .nav {
-    margin-top: 30px;
-}
-
-.left-navbar .nav > a {
-    margin-bottom: 70px;
-}
-
-.left-navbar .nav li {
-    margin-bottom: 10px;
-}
-
-.left-navbar .card {
-    background-color: #373737;
-    padding: 0px;
-}
-
-.left-navbar .card .nav{
-    margin: 0px;
-    padding-left: 55px;
-    padding-top: 10px;
-}
-
-.left-navbar .card .nav-link{
-    padding: 5px;
-}
-
-.left-navbar .logout{
-    color: white;
-    margin-top: 180%;
-}
-
-.main {
-    background-color: #EBEBEB;
-    padding-top: 30px;
-}
-
 .main .popup-setting {
     margin-top: 80px;
 }
@@ -59,7 +5,7 @@ body > .container {
 .main .popup-setting .form-control-file {
     border:    2px solid #121212;
     width: 400px;
-    background-color: white;
+    background-color: #ebebeb;
     padding: 5px;
 }
 

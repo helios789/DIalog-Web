@@ -1,0 +1,9 @@
+.main {
+    height: 1200px;
+    background-color: #EBEBEB;
+    padding: 30px;
+}
+
+body > .container {
+    min-width: 1200px;
+}
