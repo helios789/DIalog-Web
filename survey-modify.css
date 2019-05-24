@@ -13,6 +13,10 @@
     background-color: #EBEBEB;
 }
 
+.main .survey .survey-option {
+    border: 2px solid black;
+}
+
 .main .add {
     margin: auto;
     padding-top: 2px;
