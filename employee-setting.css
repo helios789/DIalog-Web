@@ -1,31 +1,19 @@
-.main .employee-setting .employee{
+.main .employee{
     background-color: white;
     padding: 10px;
     margin: 0px 10px 10px 10px;
-    width: 200px;
+    width: 180px;
+    box-shadow: 4px 4px 6px gray;
 }
 
-.main .employee-setting .employee .employee-name {
-    background-color: #EBEBEB;
-    margin: 0px;
-    padding-top: 5px;
-}
-
-.main .roadmaster-setting .roadmaster{
-    background-color: white;
-    padding: 10px;
-    margin: 0px 10px 10px 10px;
-    width: 200px;
-}
-
-.main .roadmaster-setting .roadmaster .roadmaster-name {
+.main .employee .employee-name {
     background-color: #EBEBEB;
     margin: 0px;
     padding-top: 5px;
 }
 
 .main .add {
-    margin-left: 155px;
+    margin-left: 135px;
     margin-top: 10px;
     margin-bottom: 40px;
     padding-top: 3px;
@@ -33,7 +21,12 @@
 
 .main .close {
     padding: 0px;
-    width: 35px;
-    height: 30px;
+    width: 40px;
+    height: 35px;
     padding-left: 5px;
+}
+
+
+.main .button-primary-1 {
+    width: 380px;
 }

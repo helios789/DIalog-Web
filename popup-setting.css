@@ -2,14 +2,15 @@
     margin-top: 80px;
 }
 
-.main .popup-setting .form-control-file {
-    border:    2px solid #121212;
-    width: 400px;
-    background-color: #ebebeb;
-    padding: 5px;
-}
-
 .main .popup-setting .button-primary-1 {
     margin-top: 30px;
 }
 
+.main .form-control {
+    width: 360px;
+    background-color: white;
+}
+
+.main .custom-file {
+    width: 400px;
+}

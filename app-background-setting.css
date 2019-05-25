@@ -1,15 +1,16 @@
-.main .select-file {
+.main .app-background-setting {
     margin-top: 80px;
 }
 
-.main .select-file .form-control-file {
-    border:    2px solid #121212;
-    width: 400px;
-    background-color: #ebebeb;
-    padding: 5px;
-}
-
-.main .select-file .button-primary-1 {
+.main .app-background-setting .button-primary-1 {
     margin-top: 20px;
 }
 
+.main .form-control {
+    width: 360px;
+    background-color: white;
+}
+
+.main .custom-file {
+    width: 400px;
+}
